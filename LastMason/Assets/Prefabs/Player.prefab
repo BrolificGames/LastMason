@@ -10,9 +10,10 @@ GameObject:
   - 4: {fileID: 420352}
   - 33: {fileID: 3320352}
   - 23: {fileID: 2320352}
-  - 114: {fileID: 11420352}
-  - 58: {fileID: 5899132}
   - 50: {fileID: 5099132}
+  - 58: {fileID: 5899132}
+  - 114: {fileID: 11420352}
+  - 114: {fileID: 11478058}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -133,7 +134,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
-  m_FixedAngle: 0
+  m_FixedAngle: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -172,6 +173,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24ce6e1c18f584b11a4322a87fa40302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 10
+--- !u!114 &11478058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90ac83e0b0cd4fffb30f1c71b4ad4c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!124 &12499132
