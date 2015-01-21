@@ -9,8 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 457710}
   - 33: {fileID: 3357710}
-  - 135: {fileID: 13557710}
   - 23: {fileID: 2357710}
+  - 50: {fileID: 5010260}
   - 114: {fileID: 11450046}
   - 114: {fileID: 11470074}
   - 114: {fileID: 11411018}
@@ -60,6 +60,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157710}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!50 &5010260
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157710}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!114 &11411018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -82,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd8f1f1e5ea6a462b9e85f9848412ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  missile: {fileID: 0}
 --- !u!114 &11470074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -93,18 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce7986fb095144f29804e8960a21a7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!135 &13557710
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 157710}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
