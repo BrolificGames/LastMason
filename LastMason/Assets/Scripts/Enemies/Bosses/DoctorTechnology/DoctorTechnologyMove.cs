@@ -1,15 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DoctorTechnologyMove : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
+public class DoctorTechnologyMove : MonoBehaviour 
+{
+	void FixedUpdate() 
+	{
+		Hover();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	private void Hover()
+	{
+		RaycastHit2D rayHit = Physics2D.Raycast(transform.position, -Vector2.up, 1f);
+		if (rayHit.collider != null && rayHit.collider.tag == "Ground")
+		{
+			Debug.Log(rayHit.collider.tag);
+		}
 	}
 }
