@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd8f1f1e5ea6a462b9e85f9848412ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missile: {fileID: 0}
+  missile: {fileID: 106656, guid: 83dc6076fd3c8410b8419ec13a76ea20, type: 2}
 --- !u!114 &11470074
 MonoBehaviour:
   m_ObjectHideFlags: 1
