@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 457710}
   - 33: {fileID: 3357710}
   - 23: {fileID: 2357710}
+  - 58: {fileID: 5807900}
   - 50: {fileID: 5010260}
   - 114: {fileID: 11450046}
   - 114: {fileID: 11470074}
@@ -75,6 +76,17 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+--- !u!58 &5807900
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157710}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .50000006
+  m_Center: {x: 5.96046448e-08, y: 0}
 --- !u!114 &11411018
 MonoBehaviour:
   m_ObjectHideFlags: 1
