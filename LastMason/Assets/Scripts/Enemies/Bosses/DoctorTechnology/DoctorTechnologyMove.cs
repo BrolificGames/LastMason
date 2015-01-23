@@ -4,6 +4,7 @@ using System.Collections;
 public class DoctorTechnologyMove : MonoBehaviour 
 {
 	public float hoverHeight;
+	public float hoverForce;
 	private Rigidbody2D parentRigidBody;
 
 	void Awake()
@@ -23,7 +24,8 @@ public class DoctorTechnologyMove : MonoBehaviour
 		{
 			if (rayHit.distance < hoverHeight)
 			{
-				Vector2 hover = Vector2.up;
+				float hoverForceMultiplyer = (hoverHeight - rayHit.distance) / hoverHeight;
+				Vector2 hover = (Vector2.up * hoverForce * hoverForceMultiplyer);
 				parentRigidBody.AddForce(hover * Time.deltaTime);
 			}
 		}
