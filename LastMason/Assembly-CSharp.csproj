@@ -46,10 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Enemies\Bosses\DoctorTechnology\DoctorTechnologyAttack.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Bosses\DoctorTechnology\DoctorTechnologyHealth.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Bosses\DoctorTechnology\DoctorTechnologyMove.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
+     <Compile Include="Assets\Scripts\Utility\DestroyByTime.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
