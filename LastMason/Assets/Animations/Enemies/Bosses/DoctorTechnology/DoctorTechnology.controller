@@ -208,6 +208,21 @@ State:
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
+--- !u!1102 &110280534
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Attack
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 70a986e8f3ee941deb2a283fbc5aa8d9, type: 2}
+  m_ParentStateMachine: {fileID: 110795812}
+  m_Position: {x: 311, y: 101, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
 --- !u!1102 &110283764
 State:
   m_ObjectHideFlags: 3
@@ -264,6 +279,7 @@ StateMachine:
   m_States:
   - {fileID: 110296384}
   - {fileID: 110280516}
+  - {fileID: 110280534}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
