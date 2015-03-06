@@ -9,7 +9,7 @@ public class DoctorTechnologyMove : MonoBehaviour
 
 	void Awake()
 	{
-		parentRigidBody = transform.parent.rigidbody2D;
+		parentRigidBody = transform.parent.GetComponent<Rigidbody2D>();
 	}
 
 	void FixedUpdate() 
